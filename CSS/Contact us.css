@@ -1,0 +1,66 @@
+.productcontainer{
+    margin-bottom: 700px
+}
+.Mailus{
+    width: 900px;
+    padding: 10px 50px;
+    float: left;
+}
+.Mailus h1{
+    width: 19%;
+    margin: auto;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    border-bottom: 2px solid red;
+}
+.contact{
+    float: left;
+    height: 400px;
+}
+.information{
+    width: 300px;
+    position: relative;
+}
+.Mailus img{
+    border-right: 1px solid dimgray;
+    padding: 10px;
+    margin: 0px 10px 30px 0px;
+    display: inline-block;
+}
+.Mailus .head{
+    position: absolute;
+    top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Mailus .info{
+    position: absolute;
+    top: 30px;
+}
+form input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+form textarea{
+    height: 200px;
+    width: 500px;
+    padding: 5px;
+    margin-top: 20px;
+}
+form button{
+    width: 200px;
+    height: 30px;
+    margin: 10px 25px;
+    border:none;
+    background-color: rgb(136, 194, 62);
+    color: white;
+    font-size: 25px;
+
+}
+

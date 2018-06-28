@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*:focus {outline:none;}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Header*/
+.Navbar{
+    background-color: rgb(33,33,33);
+    height: 45px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+}
+.SpecialOffer{
+    background-color: rgb(132,198,57);
+    width: 300px;
+    font-size: 20px;    
+    letter-spacing: 0px;   
+    float: left;
+}
+.offerlink{
+    width: 200px;
+    margin: 11px 60px;
+}
+
+/*Search*/
+.Search{
+    margin: 2px 100px;
+    float: left;
+}
+.SeacrhField{
+    height: 41px;
+    width: 300px;
+    font-size: 20px;
+    float: left;
+}
+.Searchbtn{
+    background-color: rgb(250,24,24);
+    margin-left: 5px;
+    border: none;
+    padding: 5px;
+    height: 41px;
+    width: 50px;
+    color: white;
+    cursor: pointer;
+}
+.Searchbtn:hover {
+    transition: background-color 1s linear;
+    background-color: rgb(132,198,57);
+}
+
+/*Cart*/
+.ViewCart{
+    float: left;
+    margin: 5px 10px;
+    width: 100px;
+    
+}
+.ViewCartBtn{
+    background-color: rgb(33,33,33);
+    border: 1px solid chartreuse;
+    color: white;
+    cursor: pointer;
+    width: 140px;
+    font-size: 14px;
+    height: 35px;
+    float: left;
+}
+.ViewCartBtn img{
+    float: right;
+    margin-right: 5px;
+}
+
+/*Login*/
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    float: left;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 15px 0px 0px 100px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    margin-top: 18px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    transition: background-color 1s , color 1s linear;
+    background-color: #ddd;   
+    color: rgb(250,24,24);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Contact Us*/
+.ContactUS{
+    background-color: rgb(250,24,24);
+    width: 200px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0px;
+    float: right;
+}
+.Contactlink{
+    width: 100px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 11px 50px;
+}
+
+/*Head Menu*/
+.Head{
+    margin-top: 200px;
+    height: 50px;
+    background-color: rgb(134, 195, 62);
+}
+.MenuItem{
+    list-style: none; 
+}
+.MenuItem a{
+    float: left;
+    padding: 16px;
+    border: 1px groove #191717;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    font-weight: bold;
+}
+.MenuItem:hover a{
+    transition: color 1s linear;
+    color: rgb(250,24,24);
+}
+
+/*Product Categories*/
+.ProductCategories{
+    width: 270px;
+    background-color: rgb(245,245,245);
+}
+.productitem{
+    width: 270px;
+    font-size: 20px;    
+    letter-spacing: 0px;  
+    list-style: none;
+    border-bottom: 1px dotted rgb(176,176,176);
+}
+.productlink{
+    padding: 10px 0px 10px 10px;
+    display:block;
+    color: black;
+}
+.productitem:hover{
+    background-color: rgb(176,176,176)
+}
+
+
+.Login{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    
+}
+.Login h1{
+    margin: auto;
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: 1px solid red;
+}
+.FormContainer{
+    border: 3px solid #f1f1f1;
+    margin: auto;
+    width: 40%;
+    border-top: 6px solid red;
+    padding: 10px
+}
+
+.Signin,.Signup{
+    float: right;
+    padding: 5px;
+    background-color: red;
+    margin: -10px;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 10px ;
+}
+.Signup{
+    display: none;
+}
+.FormContainer input[type=text], .FormContainer input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.FormContainer button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+.FormContainer button:hover {
+    opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+/* Avatar image */
+.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.psw a {
+    float: right;
+    color: red;
+    padding-top: 16px;
+}
+
+.Sign_up h1{
+    margin: auto;
+    width: 40%
+}
+
+.Sign_up{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.Body{
+    height: 900px;
+}
+
+
+
+
+footer{
+    background-color: rgb(33,33,33);
+    height: auto
+}
+/*Top Footer*/ 
+.TopFooter{
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgb(250,24,24)
+}
+.Contaner{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+.Words {
+    float: left;
+    margin: 20px 50px;
+    font-size: 30px;
+}
+.emailfooter{
+    float: left;
+    margin: 20px 0px;
+    height: 20px;
+    border-radius: 20px 0px 0px 20px;
+    width: 320px;
+    background-color: #e92c31;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+ .emailfooter::-webkit-input-placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.subbtn{
+    float: left;
+    height: 44px;
+    margin: 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: #e92c31;
+    cursor: pointer;   
+    font-weight: bold;
+}
+
+/*Bottom Footer*/
+.BottomFooter{
+    padding: 20px;
+    height: 350px;
+}
+
+.FotterSection{
+    color: #ddd;
+    float: left;
+    margin: 50px 100px 0px;
+}
+.sectionlist{
+    list-style-image:url('../Images/arrow.png') ;
+    list-style-position: inside;
+}
+.sectionlist a{color: rgb(153,153,153)}
+.sectionlist a:hover {
+    transition: color 1s linear;
+    color: rgb(253,253,253);
+}
+.sectionlist li{
+    margin: 30px 0px;
+    
+}
+.seccontainer{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.social{
+    margin: 0px auto ;
+    height: 100px;
+    width: 15%
+}
+.FB{
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+.GM{
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+.TW{
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+
+/*Footer Button*/
+.myBtn {
+    display: none;
+    height: 40px;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 100%; /* Rounded corners */
+    
+}
+.myBtn:hover {
+    transition: background-color 1s linear;
+    background-color: rgb(132,198,57); 
+}
+
